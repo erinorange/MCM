@@ -17,7 +17,7 @@ if ishandle(h)
    set(h,'CData',PLAZA);
    pause(n);
 else
-    figure('position',[100 100 200 700]);
+    figure('position',[100 100 800 2800]);
     h=imagesc(PLAZA);
     %colorbar;
     hold on;
